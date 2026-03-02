@@ -1,0 +1,96 @@
+.footer {
+  background: var(--text-dark);
+  color: var(--off-white);
+  padding: 5rem 4rem 2rem;
+}
+
+.top {
+  display: grid;
+  grid-template-columns: 2fr 1fr 1fr;
+  gap: 4rem;
+  max-width: 1100px;
+  margin: 0 auto 4rem;
+}
+
+.logoText {
+  font-family: var(--font-display);
+  font-size: 2rem;
+  font-weight: 300;
+  margin-bottom: 0.3rem;
+}
+
+.tagline {
+  font-size: 0.75rem;
+  letter-spacing: 0.15em;
+  text-transform: uppercase;
+  color: var(--light-brown);
+  margin-bottom: 1rem;
+}
+
+.note {
+  font-size: 0.85rem;
+  color: rgba(245,239,230,0.5);
+}
+
+.colTitle {
+  font-size: 0.7rem;
+  font-weight: 500;
+  letter-spacing: 0.15em;
+  text-transform: uppercase;
+  color: var(--light-brown);
+  margin-bottom: 1rem;
+}
+
+.contact p, .order p {
+  font-size: 0.88rem;
+  color: rgba(245,239,230,0.7);
+  margin-bottom: 0.5rem;
+  line-height: 1.6;
+}
+
+.waBtn {
+  margin-top: 1rem;
+  font-family: var(--font-body);
+  font-size: 0.75rem;
+  font-weight: 500;
+  letter-spacing: 0.08em;
+  padding: 0.65rem 1.3rem;
+  background: #25D366;
+  color: white;
+  border: none;
+  cursor: pointer;
+  transition: opacity 0.2s;
+}
+
+.waBtn:hover {
+  opacity: 0.85;
+}
+
+.bottom {
+  max-width: 1100px;
+  margin: 0 auto;
+  padding-top: 2rem;
+  border-top: 1px solid rgba(200,168,130,0.15);
+  display: flex;
+  justify-content: space-between;
+  flex-wrap: wrap;
+  gap: 0.5rem;
+}
+
+.bottom p {
+  font-size: 0.78rem;
+  color: rgba(245,239,230,0.35);
+}
+
+@media (max-width: 768px) {
+  .footer {
+    padding: 4rem 1.5rem 2rem;
+  }
+  .top {
+    grid-template-columns: 1fr;
+    gap: 2.5rem;
+  }
+  .bottom {
+    flex-direction: column;
+  }
+}
