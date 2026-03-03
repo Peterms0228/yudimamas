@@ -7,7 +7,7 @@ export default function Story() {
         <div className={styles.visual}>
           <div className={styles.imgBox}>
             <div className={styles.imgPlaceholder}>
-              <img src="/src/assets/image-1.jpg" alt="Coconut Candy" />
+              <img src={`${import.meta.env.BASE_URL}assets/image-1.jpg`} alt="Coconut Candy" />
             </div>
           </div>
           <div className={styles.floatCard}>
