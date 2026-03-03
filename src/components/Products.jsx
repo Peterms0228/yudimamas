@@ -3,28 +3,28 @@ import { properties } from './properties'
 
 const products = [
   {
-    img: './assets/product-A.jpg',
+    img: `${import.meta.env.BASE_URL}/assets/product-A.jpg`,
     name: '够够富足',
     desc: 'OMore than Enough. Abundance, always',
     note: '精工特制礼盒',
     price: 'Rm 99.00 / pack',
   },
   {
-    img: './assets/product-B.jpg',
+    img: `${import.meta.env.BASE_URL}/assets/product-B.jpg`,
     name: '够够福罐',
     desc: 'A Jar of Sweethess & Happiness. Multicolour Candies',
     note: '金彩年糖',
     price: 'Rm 55.00 / pack',
   },
   {
-    img: './assets/product-C.jpg',
+    img: `${import.meta.env.BASE_URL}/assets/product-C.jpg`,
     name: '够够椰香',
     desc: 'FCoconut Bliss. More Than Enough',
     note: '金彩年糖',
     price: 'Rm 29.00 / pack',
   },
   {
-    img: './assets/product-D.jpg',
+    img: `${import.meta.env.BASE_URL}/assets/product-D.jpg`,
     name: '七彩年糖',
     desc: 'Coconut Candy (Multicolour wrapped)',
     note: '创店首发丝印收藏装',
