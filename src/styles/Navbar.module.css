@@ -23,6 +23,12 @@
   font-size: 1rem;
 }
 
+.logoImg {
+  width: 40px;
+  height: 40px;
+  border-radius: 50%;
+}
+
 .logoText {
   font-family: var(--font-display);
   font-size: 1.4rem;

@@ -6,7 +6,7 @@ export default function Navbar() {
   return (
     <nav className={styles.navbar}>
       <div className={styles.logo}>
-        <span className={styles.logoMark}>✦</span>
+        <img src={`${import.meta.env.BASE_URL}/assets/logo.jpg`} alt="Yudimama's Logo" className={styles.logoImg} />
         <span className={styles.logoText}>Yudimama's</span>
       </div>
       <ul className={styles.links}>
